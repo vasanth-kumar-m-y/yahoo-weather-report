@@ -77,7 +77,7 @@
                  $.get(weather_url,{city:city}, function(response){
 
                     var weather_response = JSON.parse(response);
-                    console.log(weather_response);
+                    
                     var html = '';
 
                     $.each(weather_response, function(index, element) {
